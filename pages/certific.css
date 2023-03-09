@@ -52,12 +52,11 @@ body {
 
 .footer-heading {
     display: flex;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .footer-heading a {
     color: #b1b1b1;
 }
