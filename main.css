@@ -82,9 +82,28 @@ body {
 }
 
 .table.skills {
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
     border-spacing: 15px
 }
 
+.contato {
+    color: whitesmoke;
+    text-align: left;
+    margin-left: 10px;
 
+}
+
+.contato p {
+    margin-left: 20px;
+}
+
+.contato a {
+    color: #b1b1b1;
+    margin-left: 20px;
+}
+
+.contato a:hover {
+    color: green;
+    transition: 0.3s ease-out;
+}
