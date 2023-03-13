@@ -1,3 +1,18 @@
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 15px;
+    background-color: #181a1e;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: darkolivegreen;
+}
+
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
