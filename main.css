@@ -9,7 +9,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 15px;
-    background-color: darkolivegreen;
+    background-color:  rgba(0, 255, 106, 0.651);
 }
 
 
@@ -64,13 +64,6 @@ footer {
 .apresentacao {
     background-color: #181a1e;
     color: whitesmoke;
-}
-
-.apresentacao.titulo {
-    text-align: center;
-}
-
-.apresentacao.subtitulo {
     text-align: center;
 }
 
@@ -86,7 +79,6 @@ footer {
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 .conhecimento {
     color: whitesmoke;
@@ -98,23 +90,58 @@ footer {
     border-spacing: 15px
 }
 
-.contato {
+.ContatoConteiner {
+    display: flex;
+    justify-content: center;
     color: whitesmoke;
-    text-align: left;
-    margin-left: 10px;
-
+}
+.ContatoConteiner div{
+    display: inline-block;
 }
 
-.contato p {
+.contato {
     margin-left: 20px;
+}
+
+.contato h3 {
+    margin-left: -10px;
 }
 
 .contato a {
     color: #b1b1b1;
-    margin-left: 20px;
 }
 
 .contato a:hover {
     color: green;
     transition: 0.3s ease-out;
+}
+
+.contato.form {
+    margin-left: 0;
+}
+
+.formulario {
+    text-align: start;
+    margin-left: 10%;
+}
+
+.contato.form input {
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 255, 106, 0.651);
+    width: 250px;
+    text-align: center;
+}
+
+#submit {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.enviarbtn, .txtarea {
+    vertical-align: middle;
 }
